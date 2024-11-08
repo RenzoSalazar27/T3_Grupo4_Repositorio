@@ -1,0 +1,46 @@
+﻿@model T3_Grupo4.Models.Libro
+
+<h1>Editar Libro</h1>
+
+<form asp-action="Editar" method="post">
+    <input type="hidden" asp-for="Id" />
+
+    <div class="form-group">
+        <label for="Titulo">Título</label>
+        <input asp-for="Titulo" class="form-control" />
+        <span asp-validation-for="Titulo" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label for="Autor">Autor</label>
+        <input asp-for="Autor" class="form-control" />
+        <span asp-validation-for="Autor" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label for="Tema">Tema</label>
+        <input asp-for="Tema" class="form-control" />
+        <span asp-validation-for="Tema" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label for="Editorial">Editorial</label>
+        <input asp-for="Editorial" class="form-control" />
+        <span asp-validation-for="Editorial" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label for="AnioPublicacion">Año de Publicación</label>
+        <input asp-for="AnioPublicacion" class="form-control" />
+        <span asp-validation-for="AnioPublicacion" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label for="Paginas">Páginas</label>
+        <input asp-for="Paginas" class="form-control" />
+        <span asp-validation-for="Paginas" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label for="Categoria">Categoría</label>
+        <input asp-for="Categoria" class="form-control" />
+        <span asp-validation-for="Categoria" class="text-danger"></span>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Guardar Cambios</button>
+    <a asp-action="Index" class="btn btn-secondary">Cancelar</a>
+</form>
