@@ -1,0 +1,81 @@
+﻿body {
+    background-image: url('../pictures/arqui.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.container {
+    background-color: rgba(255, 255, 255, 0.6);
+    width: 100%; /* Asegura que el contenedor ocupe todo el ancho disponible */
+    box-sizing: border-box; /* Incluye bordes y rellenos en el cálculo del ancho */
+    padding: 20px; /* Espacio interno */
+    overflow: hidden;
+}
+
+    .container > * {
+        box-sizing: border-box;
+    }
+
+
+.book {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.toggle-btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    transition: all 0.3s ease;
+}
+
+    .toggle-btn .arrow {
+        font-size: 20px;
+        margin-right: 10px;
+        transition: transform 0.3s ease;
+    }
+
+.book-details {
+    display: none;
+    padding: 15px 0;
+    background-color: #f9f9f9;
+    border-top: 1px solid #ddd;
+}
+
+    .book-details p {
+        margin: 8px 0;
+    }
+
+body, html {
+    margin: 0; /* Eliminamos los márgenes predeterminados */
+    padding: 0; /* Eliminamos los rellenos predeterminados */
+    width: 100%;
+    overflow-x: hidden; /* Evitar el scroll horizontal */
+}
+
+
+
+
+.toggle-btn {
+    background: linear-gradient(to right, #007bff, #7800ff); /* Degradado azul a morado */
+    color: white; /* Texto blanco */
+    border: none; /* Quita el borde */
+    padding: 12px 20px; /* Relleno interno */
+    border-radius: 5px; /* Bordes redondeados */
+    font-size: 17px; /* Tamaño de fuente */
+    transition: background 0.3s ease; /* Transición suave */
+}
+
+    .toggle-btn:hover {
+        background: linear-gradient(to right, #ffc300, #9f00ff); /* Invertir los colores al pasar el ratón */
+    }

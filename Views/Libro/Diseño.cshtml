@@ -1,0 +1,257 @@
+﻿@{
+    ViewData["Title"] = "Diseño";
+}
+
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - T3_Grupo4</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/diseño.css" asp-append-version="true" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+
+
+
+</head>
+
+<body class="m-0 p-0">
+
+    <div class="container">
+        <div class="row">
+            <div class="box" style="text-align: center">
+                <h2 style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif">
+                    <strong class="text-3xl"><u>¿Qué es el Diseño de Software?</u> </strong>&nbsp;
+                </h2>
+                <p style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif">
+                    El diseño de software es una etapa fundamental en el desarrollo de aplicaciones, ya que permite definir la estructura y el funcionamiento del sistema antes de que se lleve a cabo la implementación. En este proceso, los desarrolladores y arquitectos de software elaboran un plan detallado de cómo el software cumplirá con los requisitos funcionales y no funcionales establecidos, asegurándose de que se adapte a las necesidades del usuario final. Durante el diseño, se determinan aspectos clave como la arquitectura general, los patrones de diseño, las interfaces de usuario y los métodos de interacción entre
+                    los distintos módulos del sistema. En esta fase, también se establecen los cimientos de seguridad, rendimiento, escalabilidad y mantenibilidad del software. El objetivo principal es crear un sistema eficiente y organizado que minimice los errores, sea fácil de entender y permita agregar o modificar funcionalidades en el futuro sin dificultades significativas.
+
+                    El proceso de diseño de software se divide en dos niveles: el diseño de alto nivel, o diseño arquitectónico, y el diseño de bajo nivel, o diseño detallado. En el diseño de alto nivel, se estructura el sistema en componentes principales y se define cómo estos interactuarán entre sí, qué responsabilidades tendrá cada uno y cómo se integrarán para formar el sistema completo. Este nivel ayuda a visualizar el flujo general del software y la relación entre sus partes, eligiendo arquitecturas y patrones de diseño que optimicen el desempeño y la modularidad. Por otro lado, 
+                    en el diseño de bajo nivel, se detallan cada uno de los módulos o componentes individuales, incluyendo algoritmos, estructuras de datos y reglas de negocio específicas. Este nivel se enfoca en cómo se desarrollará cada parte, asegurando que el diseño sea lo suficientemente claro para que los desarrolladores puedan programar el sistema siguiendo los lineamientos planteados. En conjunto, ambos niveles permiten que el diseño sea una guía estructurada que facilita la implementación y el mantenimiento, optimizando el ciclo de vida del software y reduciendo costos y tiempos en las etapas posteriores.
+                &nbsp;
+                &nbsp;
+                <p style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif">
+                   A continuación, se presentan algunos libros clave que se consideran esenciales para entender los principios, patrones y metodologías aplicadas en este campo:
+                </p>
+                &nbsp;
+                &nbsp;
+
+                <div class="grid grid-cols-3 gap-4 place-items-stretch">
+                    <div class="container">
+
+                        <div class="book">
+
+                            <img src="~/pictures/diseno/libro1.jpg" />
+                            <strong>Designing Data-Intensive Applications: The Big Ideas Behind Reliable, Scalable, and Maintainable Systems</strong>
+
+                            <button class="toggle-btn" id="toggleBtn">
+                                <span class="arrow">&#x21e3;</span> Ver detalles
+                            </button>
+                            <div class="book-details" id="bookDetails" style="display:none;">
+                                <h3 style="color: crimson"><strong> Detalles del Libro</strong></h3>
+                                <p><strong>Autor/es:</strong> Martin Kleppmann </p>
+                                <p><strong>N° páginas</strong> 611 páginas</p>
+                                <p><strong>Fecha de publicación:</strong> 2 de Mayo de 2017</p>
+                                <p>
+                                    <strong>Descripción:</strong> Los datos están en el centro de muchos desafíos en el diseño de sistemas actuales. Es necesario
+                                    resolver problemas complejos, como la escalabilidad, la consistencia, la confiabilidad, la eficiencia y la mantenibilidad. Además, contamos con una
+                                    abrumadora variedad de herramientas, incluidas bases de datos relacionales, almacenes de datos NoSQL, procesadores de flujo o por lotes, y
+                                    gestores de mensajes. ¿Cuáles son las opciones correctas para tu aplicación? ¿Cómo dar sentido a todos estos términos de moda?
+                                    En esta guía práctica y completa, el autor Martin Kleppmann te ayuda a navegar por este diverso panorama, examinando los pros y los contras de diversas tecnologías para el
+                                    procesamiento y almacenamiento de datos. El software sigue cambiando, pero los principios fundamentales permanecen igual. Con este libro,
+                                    ingenieros de software y arquitectos aprenderán a aplicar esas ideas en la práctica y a aprovechar al máximo los datos en aplicaciones modernas.
+                                </p>
+                                <p>◘ Explora a fondo los sistemas que ya utilizas y aprende a usarlos y operarlos de manera más efectiva.</p>
+                                <p>◘ Toma decisiones informadas identificando las fortalezas y debilidades de diferentes herramientas.</p>
+                                <p>◘ Navega los compromisos entre consistencia, escalabilidad, tolerancia a fallos y complejidad.</p>
+                                <p>◘ Comprende la investigación en sistemas distribuidos sobre la cual se construyen las bases de datos modernas.</p>
+                                <p>◘ Descubre lo que hay detrás de los principales servicios en línea y aprende de sus arquitecturas.</p>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="container">
+                        <div class="book">
+                            <img src="~/pictures/diseno/libro2.jpg" />
+                            <strong>
+                                 A Philosophy of Software Design, 2nd Edition
+                                <p>‎<p>
+                                <p>‎<p>
+                                              
+                            </strong>
+                           
+
+                            <button class="toggle-btn" id="toggleBtn1">
+                                <span class="arrow1">&#x21e3;</span> Ver detalles
+                            </button>
+                            <div class="book-details" id="bookDetails1" style="display:none;">
+                                <h3 style="color: crimson"><strong> Detalles del Libro</strong></h3>
+                                <p><strong>Autor/es:</strong> John Ousterhout</p>
+                                <p><strong>N° páginas:</strong> 196 páginas</p>
+                                <p><strong>Fecha de publicación:</strong> 26 de julio del 2021</p>
+                                <p>
+                                    <strong>Descripción:</strong> Este libro aborda el tema del diseño de software: cómo descomponer sistemas de software complejos en módulos (como clases y métodos) que se puedan implementar de manera relativamente independiente.
+
+                                    Primero, el libro presenta el problema fundamental en el diseño de software, que es la gestión de la complejidad. Luego, se discuten cuestiones filosóficas sobre cómo abordar el proceso de diseño de software, y se presenta una colección de principios de diseño para aplicar durante el diseño del software. El libro también introduce una serie de alertas que identifican problemas de diseño.
+
+                                    Puedes aplicar las ideas de este libro para minimizar la complejidad de grandes sistemas de software, de modo que puedas escribir software de manera más rápida y económica.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <div class="container">
+                        <div class="book">
+                            <img src="~/pictures/diseno/libro3.jpg" />
+                            <strong>
+                                Clean Architecture: A Craftsman's Guide to Software Structure and Design (Robert C. Martin Series)
+                            </strong>
+
+                            <button class="toggle-btn" id="toggleBtn2">
+                                <span class="arrow1">&#x21e3;</span> Ver detalles
+                            </button>
+                            <div class="book-details" id="bookDetails2" style="display:none;">
+                                <h3 style="color: crimson"><strong> Detalles del Libro</strong></h3>
+                                <p><strong>Autor/es:</strong> Robert Martin</p>
+                                <p><strong>N° páginas:</strong> 432 páginas</p>
+                                <p><strong>Fecha de publicación:</strong> 10 de septiembre del 2017</p>
+                                <p>
+                                    <strong>Descripción:</strong> Al aplicar reglas universales de arquitectura de software, puedes mejorar drásticamente la productividad de los desarrolladores a lo largo de la vida útil de cualquier sistema de software. Ahora, basándose en el éxito de sus libros más vendidos *Clean Code* y *The Clean Coder*, el legendario artesano del software Robert C. Martin (“Uncle Bob”) revela esas reglas y te ayuda a aplicarlas.
+
+                                    *Clean Architecture* de Martin no solo presenta opciones. Con más de medio siglo de experiencia en entornos de software de todo tipo, Martin te dice qué elecciones tomar y por qué son cruciales para tu éxito. Como puedes esperar de Uncle Bob, este libro está lleno de soluciones directas y prácticas para los desafíos reales que enfrentarás, aquellos que harán o desharán tus proyectos.
+                                </p>
+                                <p>◘ Aprende lo que los arquitectos de software deben lograr y las disciplinas y prácticas fundamentales para conseguirlo.</p>
+                                <p>◘ Domina principios esenciales de diseño de software para abordar la funcionalidad, la separación de componentes y la gestión de datos.</p>
+                                <p>◘ Comprende cómo los paradigmas de programación imponen disciplina al restringir lo que los desarrolladores pueden hacer.</p>
+                                <p>◘ Identifica lo que es críticamente importante y lo que es simplemente un "detalle".</p>
+                                <p>◘ Implementa estructuras de alto nivel óptimas para aplicaciones web, de base de datos, cliente grueso, consola y aplicaciones embebidas.</p>
+                                <p>◘ Define límites y capas adecuados, y organiza componentes y servicios.</p>
+                                <p>◘ Descubre por qué los diseños y arquitecturas fallan y cómo prevenir (o solucionar) estos problemas.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="container">
+                        <div class="book">
+                            <img src="~/pictures/diseno/libro4.jpg" />
+                            <strong>
+                                Design Patterns: Elements of Reusable Object-Oriented Software
+                            </strong>
+
+                            <button class="toggle-btn" id="toggleBtn3">
+                                <span class="arrow1">&#x21e3;</span> Ver detalles
+                            </button>
+                            <div class="book-details" id="bookDetails3" style="display:none;">
+                                <h3 style="color: crimson"><strong> Detalles del Libro</strong></h3>
+                                <p><strong>Autor/es:</strong> Erich Gamma, Richard Helm, Ralph Johnson, John Vlissides</p>
+                                <p><strong>Foreword por:</strong> Grady Booch</p>
+                                <p><strong>N° páginas:</strong> 416 páginas</p>
+                                <p><strong>Fecha de publicación:</strong> 1 de enero de 1994</p>
+                                <p>
+                                    <strong>Descripción:</strong><br>
+                                    Capturando una gran cantidad de experiencia sobre el diseño de software orientado a objetos, cuatro diseñadores de primer nivel presentan un catálogo de soluciones simples y concisas a problemas de diseño que ocurren comúnmente.<br>
+                                    Estos 23 patrones, previamente no documentados, permiten a los diseñadores crear diseños más flexibles, elegantes y, en última instancia, reutilizables, sin tener que redescubrir las soluciones de diseño por sí mismos.<br>
+                                    Los autores comienzan describiendo qué son los patrones y cómo pueden ayudarte a diseñar software orientado a objetos. Luego, explican de manera sistemática cómo nombrar, explicar, evaluar y catalogar los diseños recurrentes en los sistemas orientados a objetos.<br>
+                                    Con *Design Patterns* como guía, aprenderás cómo estos importantes patrones encajan en el proceso de desarrollo de software y cómo puedes aprovecharlos para resolver tus propios problemas de diseño de manera más eficiente.<br>
+                                    Cada patrón describe las circunstancias en las que es aplicable, cuándo se puede aplicar en función de otras restricciones de diseño, y las consecuencias y los compromisos de usar el patrón dentro de un diseño más grande.<br>
+                                    Todos los patrones están compilados a partir de sistemas reales y están basados en ejemplos del mundo real.<br>
+                                    Cada patrón también incluye código que demuestra cómo puede ser implementado en lenguajes de programación orientados a objetos como C++ o Smalltalk.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="container">
+                        <div class="book">
+                            <img src="~/pictures/diseno/libro5.jpg" />
+                            <strong>
+                                C++ Software Design: Design Principles and Patterns for High-Quality Software
+                            </strong>
+
+                            <button class="toggle-btn" id="toggleBtn4">
+                                <span class="arrow1">&#x21e3;</span> Ver detalles
+                            </button>
+                            <div class="book-details" id="bookDetails4" style="display:none;">
+                                <h3 style="color: crimson"><strong> Detalles del Libro</strong></h3>
+                                <p><strong>Autor/es:</strong> Klaus Iglberger</p>
+                                <p><strong>N° páginas:</strong> 435 páginas</p>
+                                <p><strong>Fecha de publicación:</strong> 25 de octubre de 2022</p>
+                                <p>
+                                    <strong>Descripción:</strong> Un buen diseño de software es esencial para el éxito de tu proyecto, pero diseñar software es difícil de hacer. Necesitas tener una comprensión profunda de las consecuencias de las decisiones de diseño y una buena visión general de las alternativas de diseño disponibles. Con este libro, los desarrolladores experimentados de C++ obtendrán una visión completa, práctica e incomparable del diseño de software con este lenguaje moderno.<br><br>
+                                    El entrenador y consultor de C++, Klaus Iglberger, explica cómo puedes gestionar dependencias y abstracciones, mejorar la cambiabilidad y extensibilidad de las entidades de software, y aplicar e implementar patrones de diseño modernos para ayudarte a aprovechar las posibilidades actuales. El diseño de software es el aspecto más esencial de un proyecto de software porque impacta las propiedades más importantes del software: mantenibilidad, cambiabilidad y extensibilidad.
+                                </p>
+                                <p><strong>Contenido adicional:</strong></p>
+                                <p>◘ Aprende a evaluar tu código con respecto al diseño de software</p>
+                                <p>◘ Entiende qué es el diseño de software, incluyendo objetivos de diseño como la cambiabilidad y extensibilidad</p>
+                                <p>◘ Explora las ventajas y desventajas de cada enfoque de diseño</p>
+                                <p>◘ Aprende cómo los patrones de diseño ayudan a resolver problemas y expresar la intención</p>
+                                <p>◘ Elige la forma correcta de un patrón de diseño para aprovechar al máximo sus ventajas</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="container">
+                        <div class="book">
+                            <img src="~/pictures/diseno/libro6.jpg" />
+                            <strong>
+                                System Design Interview – An Insider's Guide: Volume 2
+                            </strong>
+
+                            <button class="toggle-btn" id="toggleBtn5">
+                                <span class="arrow1">&#x21e3;</span> Ver detalles
+                            </button>
+                            <div class="book-details" id="bookDetails5" style="display:none;">
+                                <h3 style="color: crimson"><strong> Detalles del Libro</strong></h3>
+                                <p><strong>Autor/es:</strong> Alex Xu, Sahn Lam</p>
+                                <p><strong>N° páginas:</strong> 434 páginas</p>
+                                <p><strong>Fecha de publicación:</strong> 11 de marzo de 2022</p>
+                                <p>
+                                    <strong>Descripción:</strong> Este libro puede verse como una secuela del libro: System Design Interview - An Insider’s Guide. Cubre un conjunto diferente de preguntas y soluciones de entrevistas sobre diseño de sistemas. Aunque leer el Volumen 1 es útil, no es necesario. Este libro debe ser accesible para los lectores que tengan una comprensión básica de los sistemas distribuidos.<br><br>
+                                    Este volumen proporciona una estrategia confiable y una base de conocimientos para abordar una amplia gama de preguntas sobre diseño de sistemas que puedes encontrar. Te ayudará a sentirte confiado durante esta importante entrevista. Este libro proporciona un marco paso a paso sobre cómo abordar una pregunta de diseño de sistemas. También incluye muchos ejemplos del mundo real para ilustrar un enfoque sistemático, con pasos detallados y bien explicados que puedes seguir.
+                                </p>
+                                <p><strong>Tabla de contenidos:</strong></p>                              
+                                    <p>◘ Chapter 1: Proximity Service</p>
+                                    <p>◘ Chapter 2: Nearby Friends</p>
+                                    <p>◘ Chapter 3: Google Maps</p>
+                                    <p>◘ Chapter 4: Distributed Message Queue</p>
+                                    <p>◘ Chapter 5: Metrics Monitoring</p>
+                                    <p>◘ Chapter 6: Ad Click Event Aggregation</p>
+                                    <p>◘ Chapter 7: Hotel Reservation</p>
+                                    <p>◘ Chapter 8: Distributed Email Service</p>
+                                    <p>◘ Chapter 9: S3-like Object Storage</p>
+                                    <p>◘ Chapter 10: Real-time Gaming Leaderboard</p>
+                                    <p>◘ Chapter 11: Payment System</p>
+                                    <p>◘ Chapter 12: Digital Wallet</p>
+                                    <p>◘ Chapter 13: Stock Exchange</p>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+        </div>
+    </div>
+
+    <style>
+        .espacio {
+            margin-top: 50px;
+        }
+    </style>
+
+    <script src="~/js/arqui.js"></script>
+</body>
+</html>
+
+

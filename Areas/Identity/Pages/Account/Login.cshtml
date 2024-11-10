@@ -30,7 +30,7 @@
                     </label>
                 </div>
                 <div>
-                    <button id="login-submit" type="submit" class="w-100 btn btn-lg btn-primary">Log in</button>
+                    <button id="login-submit" type="submit" class="w-100 btn btn-lg btn-primary login-button" >Log in</button>
                 </div>
                 <div>
                     <p>
@@ -46,6 +46,23 @@
             </form>
         </section>
     </div>
+
+    <style>
+        .login-button {
+            background: linear-gradient(to right, #4f6dff, #9b4eff); /* Degradado azul a morado */
+            color: white; /* Texto blanco */
+            border: none; /* Quita el borde */
+            padding: 12px 20px; /* Relleno interno */
+            border-radius: 5px; /* Bordes redondeados */
+            font-size: 17px; /* Tamaño de fuente */
+            transition: background 0.3s ease; /* Transición suave */
+        }
+
+            .login-button:hover {
+                background: linear-gradient(to right, #9b4eff, #4f6dff); /* Invertir los colores al pasar el ratón */
+            }
+    </style>
+
     <div class="col-md-6 col-md-offset-2">
         <section>
             <h3>Use another service to log in.</h3>

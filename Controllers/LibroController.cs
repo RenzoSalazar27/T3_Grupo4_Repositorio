@@ -130,5 +130,24 @@ namespace T3_Grupo4.Controllers
         {
             return _context.Libros.Any(e => e.Id == id);
         }
+
+        public IActionResult Ejemplo()
+        {
+            return View();
+        }
+
+        //Pestañas adiciionales 
+
+        //1
+        public IActionResult Arquitectura()
+        {
+            return View();
+        }
+
+        //2
+        public IActionResult Diseño()
+        {
+            return View();
+        }
     }
 }

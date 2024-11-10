@@ -9,31 +9,40 @@
     <link rel="stylesheet" href="~/T3_Grupo4.styles.css" asp-append-version="true" />
 </head>
 <body>
-    <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+    <header >
+
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3 hean ">
             <div class="container-fluid">
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">T3_Grupo4</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index" style="color:gray">T3_Grupo4</a>
+                <button class="navbar-toggler"  type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between flex-row-reverse">
+                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between flex-row-reverse ">
                     <partial name="_LoginPartial" />
                     <ul class="navbar-nav flex-grow-1">
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Inicio</a>
+                        <li class="nav-item ">
+                            <a class="nav-link " asp-area="" asp-controller="Home" asp-action="Index" style="color:gray" >Inicio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacidad</a>
+                            <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Privacy" style="color:gray" >Privacidad</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Libro" asp-action="Index">Libros</a>
+                            <a class="nav-link" asp-area="" asp-controller="Libro" asp-action="Index" style="color:gray" >Libros</a>
+                        </li> 
+                        <li class="nav-item">
+                            <a class="nav-link" asp-area="" asp-controller="Libro" asp-action="Arquitectura" style="color:gray">Arquitectura de Software</a>
+                            <!--style="color:aliceblue; background-color: darkorange; border-radius: 10px">Arquitectura de Software-->
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" asp-area="" asp-controller="Libro" asp-action="Diseño" style="color:gray" >Diseño de Software</a>
                         </li>
                     </ul>
                 </div>
             </div>
         </nav>
     </header>
+
     <div class="container">
         <main role="main" class="pb-3">
             @RenderBody()
