@@ -20,3 +20,26 @@ html {
 body {
   margin-bottom: 60px;
 }
+
+.hean {
+    background-color: black !important;
+    font-family:'Century Gothic';
+}
+.text{
+    color: wheat;
+}
+
+.navbar-toggler-icon {
+    background-color: white; /* Cambia el color de las tres líneas */
+}
+
+/* Cambiar el color de fondo del botón hamburguesa */
+.navbar-toggler {
+    background-color: white; /* Cambiar el fondo del botón */
+}
+
+    /* Cambiar el color de fondo del botón hamburguesa cuando está activo (cuando se muestra el menú) */
+    .navbar-toggler.collapsed {
+        background-color: white; /* Fondo más oscuro cuando el menú está colapsado */
+    }
+
