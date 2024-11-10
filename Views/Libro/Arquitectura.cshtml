@@ -1,0 +1,374 @@
+﻿
+@{
+    ViewData["Title"] = "Arquitectura";
+}
+
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - T3_Grupo4</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/arquitectura.css" asp-append-version="true" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+   
+
+
+</head>
+
+<body class="m-0 p-0">
+
+    <div class="container">
+        <div class="row">
+                <div class="box" style="text-align: center">
+                <h2 style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif">
+                    <strong class="text-3xl"><u>¿Qué es la Arquitectura de Software?</u> </strong>&nbsp;
+                    </h2>
+                    <p style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif">
+                    La arquitectura de software es una disciplina fundamental en el desarrollo de sistemas complejos. Se refiere a la estructura global de un sistema de software, que define la organización y la interacción entre sus componentes. Esta estructura incluye no solo los módulos o componentes que conforman el sistema, sino también las relaciones entre ellos y cómo colaboran para cumplir con los requisitos funcionales y no funcionales del software, como el rendimiento, la escalabilidad, la seguridad, y la mantenibilidad.
+
+                    A nivel práctico, la arquitectura de software actúa como un plano para el desarrollo del sistema. Proporciona a los desarrolladores y arquitectos una visión global del sistema, permitiéndoles tomar decisiones informadas sobre el diseño, la integración de tecnologías, la asignación de recursos y la planificación de la implementación. Es, en efecto, la base para el desarrollo de un sistema robusto, sostenible y eficiente.
+
+                    Una arquitectura bien diseñada es crucial para el éxito del proyecto porque influye directamente en aspectos clave como la calidad del código, el rendimiento, la escalabilidad y la facilidad de mantenimiento del sistema. Además, una buena arquitectura fomenta la colaboración efectiva entre los equipos de desarrollo, ya que proporciona un marco claro de trabajo y una comprensión común del sistema. También ayuda a mitigar riesgos técnicos, ya que anticipa y resuelve problemas potenciales desde las primeras fases del desarrollo.
+
+                    La planificación de la arquitectura de software no solo implica el diseño de la estructura del sistema, sino que se basa en el uso de patrones de diseño y modelos arquitectónicos que permiten resolver problemas recurrentes de manera eficiente. Estos patrones son soluciones probadas y reutilizables que se adaptan a contextos específicos dentro del desarrollo de software. A diferencia de los patrones de programación, que son soluciones de bajo nivel para problemas específicos del código, los patrones de arquitectura se enfocan en la estructura y organización a gran escala del sistema, guiando la forma en que se dividen y se interrelacionan los componentes principales.
+
+                    Desde su surgimiento en la década de 1960, el concepto de arquitectura de software ha evolucionado y se ha convertido en una disciplina madura. Hoy en día, existen enfoques bien definidos y metodologías estandarizadas para abordar la complejidad de sistemas grandes y distribuidos. Los arquitectos de software deben elegir y aplicar estos patrones según el tipo de aplicación, el entorno tecnológico y los objetivos del proyecto, lo que asegura una mayor estabilidad y facilidad de mantenimiento a largo plazo.
+                    </p>
+                &nbsp;
+                &nbsp;
+                <p style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif">
+                    Para profundizar en el estudio y la práctica de la arquitectura de software, existen numerosos recursos que ofrecen tanto teorías fundamentales como enfoques prácticos para diseñar y construir sistemas de software robustos. A continuación, se presentan algunos libros clave que se consideran esenciales para entender los principios, patrones y metodologías aplicadas en este campo:
+                </p>
+                &nbsp;
+                &nbsp;
+
+                <div class="grid grid-cols-3 gap-4 place-items-stretch">
+                    <div class="container">
+                        
+                        <div class="book">
+                            
+                            <img src="~/pictures/libro1.jpg?v=1" />
+                            <strong>Software Architecture in Practice (SEI Series in Software Engineering)</strong>
+                            
+                            <button class="toggle-btn" id="toggleBtn">
+                                <span class="arrow">&#x21e3;</span> Ver detalles
+                            </button>
+                            <div class="book-details" id="bookDetails" style="display:none;">
+                                <h3 style="color: crimson"><strong> Detalles del Libro</strong></h3>
+                                <p><strong>Autor/es:</strong> Len Bass, Paul Clements y Rick Kazman </p>
+                                <p><strong>N° páginas</strong> 624 páginas</p>
+                                <p><strong>Fecha de publicación:</strong> 25 de Septiembre de 2012</p>
+                                <p>
+                                    <strong>Descripción:</strong> La premiada y muy influyente Arquitectura de software en la práctica, tercera edición, ha sido revisada sustancialmente para reflejar los últimos avances en el campo. En un entorno del mundo real, el libro vuelve a presentar los conceptos y las mejores prácticas de la arquitectura de software: cómo se estructura un sistema de software y cómo se supone que interactúan los elementos de ese sistema. A diferencia de los detalles de implementación, algoritmo y representación de datos, una arquitectura es la clave para lograr la calidad del sistema, es un activo reutilizable que se puede aplicar a sistemas posteriores y es crucial para la estrategia comercial de una organización de software.
+
+                                    Los autores han estructurado esta edición en torno al concepto de ciclos de influencia de la arquitectura. Cada ciclo muestra cómo la arquitectura influye y es influida por un contexto particular en el que la arquitectura desempeña un papel fundamental. Los contextos incluyen el entorno técnico, el ciclo de vida de un proyecto, el perfil empresarial de una organización y las prácticas profesionales del arquitecto. Los autores también han ampliado considerablemente su tratamiento de los atributos de calidad, que siguen siendo fundamentales para su filosofía de la arquitectura (con un capítulo entero dedicado a cada atributo) y han ampliado su tratamiento de los patrones arquitectónicos.
+
+                                    Si diseña, desarrolla o administra grandes sistemas de software (o planea hacerlo), encontrará que este libro es un recurso valioso para ponerse al día con el estado del arte.
+
+                                    Cubiertas de material totalmente nuevo
+
+          
+                                </p>
+                                <p>◘ Competencia arquitectónica: qué significa esto tanto para los individuos como para las organizaciones</p>
+                                <p>◘ Contextos de la arquitectura de software: técnico, de proyecto, de negocio y profesional</p>
+                                <p>◘ Los orígenes de los objetivos empresariales y cómo esto afecta a la arquitectura</p>
+                                <p>◘ Requisitos arquitectónicamente significativos y cómo determinarlos</p>
+                                <p>◘ Arquitectura en el ciclo de vida, incluyendo la generación y prueba como filosofía de diseño; conformidad con la 
+                                    arquitectura durante la implementación; arquitectura y pruebas; y arquitectura y desarrollo ágil</p>
+                                <p>◘Arquitectura y tecnologías actuales, como la nube, las redes sociales y los dispositivos del usuario final.</p>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="container">
+                        <div class="book">
+                            <img src="~/pictures/libro2.jpg" />
+                            <strong>
+                                Designing Software Architectures: A Practical Approach
+                                (SEI Series in Software Engineering)
+                            </strong>
+                           
+                            <button class="toggle-btn" id="toggleBtn1">
+                                <span class="arrow1">&#x21e3;</span> Ver detalles
+                            </button>
+                            <div class="book-details" id="bookDetails1" style="display:none;">
+                                <h3 style="color: crimson"><strong> Detalles del Libro</strong></h3>
+                                <p><strong>Autor/es:</strong>  Humberto Cervantes y Rick Kazman </p>
+                                <p><strong>N° páginas</strong> 320 páginas</p>
+                                <p><strong>Fecha de publicación:</strong> 13 de mayo de 2016 </p>
+                                <p>
+                                    <strong>Descripción:</strong> Diseño de arquitecturas de software le enseñará cómo diseñar cualquier arquitectura de software de manera sistemática, predecible, repetible y rentable.
+
+
+                                    Este libro presenta una metodología práctica para el diseño de arquitectura que cualquier ingeniero de software profesional puede utilizar, proporciona métodos estructurados respaldados por fragmentos reutilizables de conocimiento de diseño e incluye estudios de casos completos que demuestran cómo utilizar los métodos.
+
+                                    Utilizando ejemplos realistas, dominará la nueva y poderosa versión del probado método Attribute-Driven Design (ADD) 3.0 y aprenderá cómo usarlo para abordar impulsores clave, incluidos atributos de calidad, como modificabilidad, usabilidad y disponibilidad, junto con requisitos funcionales y preocupaciones arquitectónicas.
+
+                                    Con su amplia experiencia, Humberto Cervantes y Rick Kazman te guiarán en la creación de diseños prácticos que respalden el ciclo de vida completo del software, desde los requisitos hasta el mantenimiento y la evolución. Aprenderás a integrar con éxito el diseño en tu contexto organizacional y a diseñar sistemas que se construirán con métodos ágiles.
+
+
+                                    La cobertura integral incluye
+
+
+                                </p>
+                                <p>◘ Comprender qué implica el diseño de la arquitectura y dónde encaja en el ciclo de vida completo del desarrollo de software</p>
+                                <p>◘ Dominar los conceptos, principios y procesos básicos de diseño</p>
+                                <p>◘ Entendiendo cómo realizar los pasos del método ADD</p>
+                                <p>◘ Escalado del diseño y análisis hacia arriba o hacia abajo, incluido el diseño para procesos de preventa o revisiones de arquitectura liviana</p>
+                                <p>◘ Reconocer y optimizar las relaciones críticas entre el análisis y el diseño</p>
+                                <p>◘ Reconocer y optimizar las relaciones críticas entre el análisis y el diseño</p>
+                                <p>◘ Utilizar primitivos de diseño probados y reutilizables y adaptarlos a problemas y contextos específicos</p>
+                                <p>◘ Solución de problemas de diseño en nuevos dominios, como la nube, la telefonía móvil o el big data</p>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <div class="container">
+                        <div class="book">
+                            <img src="~/pictures/libro3.jpg" />
+                            <strong>Documenting Software Architectures: Views and Beyond</strong>
+                            
+                            <button class="toggle-btn" id="toggleBtn2">
+                                <span class="arrow2">&#x21e3;</span> Ver detalles
+                            </button>
+                            <div class="book-details" id="bookDetails2" style="display:none;">
+                                <h3 style="color: crimson"><strong> Detalles del Libro</strong></h3>
+                                <p><strong>Autor/es:</strong>  Paul Clements, Felix Bachmann, Len Bass, David Garlan, James Ivers, Reed Little, Paulo Merson, Robert Nord y Judith Stafford </p>
+                                <p>
+                                    <strong>N° páginas</strong> 592 páginas
+                                </p>
+                                <p><strong>Fecha de publicación:</strong>5 de Octubre de 2010 </p>
+                                <p>
+                                    <strong>Descripción:</strong> “Esta nueva edición es más brillante, más completa, más pragmática y más centrada que la anterior, y no habría creído que fuera posible mejorar la original. A medida que el campo de la arquitectura de software ha crecido en las últimas décadas, hay mucho más que decir, mucho más que sabemos y mucho más sobre lo que podemos reflexionar sobre lo que ha funcionado y lo que no, y los autores de este libro hacen todo eso y mucho más”.
+                                    ―Del prólogo de Grady Booch, IBM Fellow
+
+                                    La arquitectura de software (el pegamento conceptual que mantiene unida cada fase de un proyecto para sus múltiples partes interesadas) es ampliamente reconocida como un elemento crítico en el desarrollo de software moderno. Los profesionales han descubierto cada vez más que prestar mucha atención a la arquitectura de un sistema de software rinde valiosos dividendos. Sin una arquitectura que sea apropiada para el problema que se está resolviendo, un proyecto se tambaleará o, muy probablemente, fracasará. Incluso con una arquitectura excelente, si esa arquitectura no se entiende bien o no se comunica bien, es poco probable que el proyecto tenga éxito.
+
+                                    Documenting Software Architectures, Second Edition, ofrece la guía más completa y actualizada, independientemente del lenguaje o la notación, sobre cómo capturar una arquitectura en una forma comúnmente comprensible. Basándose en su amplia experiencia, los autores primero le ayudan a decidir qué información documentar y luego, con pautas y ejemplos (en varias notaciones, incluido UML), le muestran cómo expresar una arquitectura para que otros puedan construir, usar y mantener con éxito un sistema a partir de ella. El libro presenta reglas para una documentación sólida, los objetivos y las estrategias de la documentación, vistas y estilos arquitectónicos, documentación para interfaces de software y comportamiento del software, y plantillas para capturar y organizar información para generar un paquete coherente. Novedades y mejoras en esta segunda edición:
+
+                                    
+                                </p>
+                                <p>◘ Cobertura de estilos arquitectónicos como arquitecturas orientadas a servicios, arquitecturas de múltiples niveles y modelos de datos.</p>
+                                <p>◘ Guía para la documentación en un entorno de desarrollo ágil</p>
+                                <p>◘ Tratamiento más profundo de la documentación de la justificación, reflejando las mejores prácticas industriales</p>
+                                <p>◘ Plantillas mejoradas, que reflejan años de uso y comentarios, y más opciones de diseño de documentación</p>
+                                <p>◘ Un nuevo y completo ejemplo (disponible en línea), que incluye documentación de un sistema orientado a servicios basado en la Web</p>
+                                <p>◘ Guías de referencia para tres lenguajes de documentación de arquitectura importantes: UML, AADL y SySML</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="container">
+                        <div class="book">
+                            <img src="~/pictures/libro4.jpg" />
+                            <strong>Fundamentals of Software Architecture: An Engineering Approach 1st Edición</strong>
+                            
+                            <button class="toggle-btn" id="toggleBtn3">
+                                <span class="arrow3">&#x21e3;</span> Ver detalles
+                            </button>
+                            <div class="book-details" id="bookDetails3" style="display:none;">
+                                <h3 style="color: crimson"><strong> Detalles del Libro</strong></h3>
+                                <p><strong>Autor/es:</strong> Mark Richards y Neal Ford  </p>
+                                <p>
+                                    <strong>N° páginas</strong> 419 páginas
+                                </p>
+                                <p><strong>Fecha de publicación:</strong>3 de marzo de 2020 </p>
+                                <p>
+                                    <strong>Descripción:</strong> Las encuestas salariales en todo el mundo colocan regularmente al arquitecto de software entre los 10 mejores trabajos, pero no existe una guía real para ayudar a los desarrolladores a convertirse en arquitectos. Hasta ahora. Este libro proporciona la primera descripción general completa de los muchos aspectos de la arquitectura de software. Tanto los arquitectos en ciernes como los existentes examinarán las características arquitectónicas, los patrones arquitectónicos, la determinación de componentes, la diagramación y presentación de la arquitectura, la arquitectura evolutiva y muchos otros temas.
+
+                                    Mark Richards y Neal Ford, profesionales que han impartido clases de arquitectura de software durante años, se centran en los principios de arquitectura que se aplican a todas las tecnologías. Explorarás la arquitectura de software desde una perspectiva moderna, teniendo en cuenta todas las innovaciones de la última década.
+
+                                    Este libro examina:
+
+                                </p>
+                                <p>◘ Patrones de arquitectura: la base técnica de muchas decisiones arquitectónicas</p>
+                                <p>◘ Componentes: identificación, acoplamiento, cohesión, partición y granularidad</p>
+                                <p>◘ Habilidades blandas: gestión eficaz de equipos, reuniones, negociación, presentaciones y más</p>
+                                <p>◘ Modernidad: Prácticas de ingeniería y enfoques operativos que han cambiado radicalmente en los últimos años</p>
+                                <p>◘ La arquitectura como disciplina de ingeniería: resultados repetibles, métricas y valoraciones concretas que aportan rigor a la arquitectura de software</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="container">
+                        <div class="book">
+                            <img src="~/pictures/libro5.jpg" />
+                            <strong> Arquitectura del Software (Spanish Edition) Tapa blanda – 31</strong>
+                            
+                            <button class="toggle-btn" id="toggleBtn4">
+                                <span class="arrow4">&#x21e3;</span> Ver detalles
+                            </button>
+                            <div class="book-details" id="bookDetails4" style="display:none;">
+                                <h3 style="color: crimson"><strong> Detalles del Libro</strong></h3>
+                                <p><strong>Autor/es:</strong> Ángel Arias y Alicia Durango  </p>
+                                <p>
+                                    <strong>N° páginas</strong> 199 páginas
+                                </p>
+                                <p><strong>Fecha de publicación:</strong>31 de Marzo de 2017 </p>
+                                <p>
+                                    <strong>Descripción:</strong> Desarrollar software no es una tarea fácil. Es por ese motivo que muchos proyectos de software fracasan durante su desarrollo o al obtener sus resultados. Entre esos malos resultados, encontramos los que costaron mucho más dinero del presupuestado, los proyectos incompletos y los que no solucionan los problemas como se deberían resolver. No es fácil alcanzar un buen producto de software debido a la complejidad que envuelve su proceso de desarrollo. Además de lidiar con la complejidad inherente al problema, también nos debemos preocupar en como el software resuelve ese problema. Así, el software debe, además de resolver el problema, resolverlo de la forma esperada. O en otras palabras: Se espera que, además de su funcionalidad, el producto de software posea los atributos de calidad esperados. El Diseño de Software puede ser dividido en dos actividades: diseño de alto-nivel o arquitectural y diseño detallado, y ambas actividades tienen un papel importante en el ciclo de desarrollo del software. Como el objeto de estudio de este libro es la Arquitectura de Software, volvemos ahora hacia la primera actividad en cuestión. Este libro tiene como objetivo exponer al lector los fundamentos de la Arquitectura de Software o, en otras palabras, hacer que sea capaz de: Reconocer, entender y comparar las diferentes definiciones existentes del término arquitectura de software. Relacionar las diferentes definiciones de arquitectura de software con el estándar ISO/IEEE 1471. Identificar las características y beneficios proporcionados por una buena arquitectura. Evaluar los beneficios que explícitamente proyecta la arquitectura durante el desarrollo del software.
+
+                                </p>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="container">
+                            <div class="book">
+                            <img src="~/pictures/libro6.jpg" />
+                                <strong> Building Evolutionary Architectures: Support Constant Change 1st Edición </strong>
+
+                                <button class="toggle-btn" id="toggleBtn5">
+                                    <span class="arrow5">&#x21e3;</span> Ver detalles
+                                </button>
+                                <div class="book-details" id="bookDetails5" style="display:none;">
+                                    <h3 style="color: crimson"><strong> Detalles del Libro</strong></h3>
+                                    <p><strong>Autor/es:</strong> Neal Ford, Rebecca Parsons y Patrick Kua   </p>
+                                    <p>
+                                        <strong>N° páginas</strong> 188 páginas
+                                    </p>
+                                    <p>
+                                        <strong>Fecha de publicación:</strong>7 de Noviembre de 2017
+                                    </p>
+                                    <p>
+                                        <strong>Descripción:</strong> El ecosistema de desarrollo de software cambia constantemente y ofrece un flujo constante de nuevas herramientas, marcos, técnicas y paradigmas. En los últimos años, los avances progresivos en las prácticas de ingeniería básicas para el desarrollo de software han creado las bases para repensar cómo cambia la arquitectura con el tiempo, junto con formas de proteger características arquitectónicas importantes a medida que evoluciona. Esta guía práctica une esas partes con una nueva forma de pensar sobre la arquitectura y el tiempo.
+
+                                    </p>
+
+                                </div>
+                            </div>
+
+                    </div>
+
+                    <div class="container">
+                        <div class="book">
+                            <img src="~/pictures/libro7.jpg" />
+                            <strong>Thinking Architecturally </strong>
+
+                            <button class="toggle-btn" id="toggleBtn6">
+                                <span class="arrow6">&#x21e3;</span> Ver detalles
+                            </button>
+                            <div class="book-details" id="bookDetails6" style="display:none;">
+                                <h3 style="color: crimson"><strong> Detalles del Libro</strong></h3>
+                                <p><strong>Autor/es:</strong> Nathaniel Schutta   </p>
+                                <p>
+                                    <strong>N° páginas</strong> 68 páginas
+                                </p>
+                                <p>
+                                    <strong>Fecha de publicación:</strong>14 de mayo de 2018
+                                </p>
+                                <p>
+                                    <strong>Descripción:</strong>Cada año aparecen nuevas tecnologías de software. Como un reloj, otro lenguaje, biblioteca, patrón o enfoque aparecerá en escena con mucha publicidad y entusiasmo por parte de los desarrolladores. Como alguien cuyo trabajo requiere tomar decisiones arquitectónicas, debe evaluar estas nuevas tecnologías teniendo en cuenta las inevitables desventajas antes de decidir si un nuevo marco o lenguaje es adecuado para su proyecto.
+
+                                    En este libro electrónico, el arquitecto de soluciones Nathaniel Schutta guía a los líderes tecnológicos, desarrolladores sénior, desarrolladores júnior y, por supuesto, arquitectos en ejercicio a través del proceso de evaluación de nuevas tecnologías prometedoras. Reconocer cómo la tecnología actual se basa en el pasado es una parte clave: algunos enfoques que no funcionaron hace años pueden tener ahora todos los ingredientes para tener éxito. Aprenderá a tomar decisiones efectivas con respecto al uso de nuevas soluciones tecnológicas y explorará el valor de las funciones de aptitud para garantizar que su elección final se refleje en la base de código.
+
+                                </p>
+
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="container">
+                        <div class="book">
+                            <img src="~/pictures/libro8.jpg" />
+                            <strong>Java in a Nutshell: A Desktop Quick Reference 7th Edición </strong>
+
+                            <button class="toggle-btn" id="toggleBtn7">
+                                <span class="arrow7">&#x21e3;</span> Ver detalles
+                            </button>
+                            <div class="book-details" id="bookDetails7" style="display:none;">
+                                <h3 style="color: crimson"><strong> Detalles del Libro</strong></h3>
+                                <p><strong>Autor/es:</strong> Benjamin J. Evans y David Flanagan 
+                                   </p>
+                                <p>
+                                    <strong>N° páginas</strong> 455 páginas
+                                </p>
+                                <p>
+                                    <strong>Fecha de publicación:</strong>22 de Enero de 2019
+
+                                </p>
+                                <p>
+                                    <strong>Descripción:</strong> Esta edición actualizada de Java in a Nutshell no solo ayuda a los programadores experimentados de Java a aprovechar al máximo las versiones 9 a 11 de Java, sino que también es una ruta de aprendizaje para los nuevos desarrolladores. Repleto de ejemplos que demuestran cómo aprovechar al máximo las API de Java modernas y las mejores prácticas de desarrollo, este libro completamente revisado incluye material nuevo sobre las utilidades de concurrencia de Java.
+
+                                    La primera sección del libro ofrece una introducción rápida y sencilla al lenguaje de programación Java y a los aspectos básicos del entorno de ejecución de la plataforma Java. La segunda sección es una referencia a los conceptos y API básicos que explican cómo realizar un trabajo de programación real en el entorno Java.
+
+                                </p>
+                                <p>◘ Infórmese sobre los detalles del lenguaje, incluidos los cambios de Java 9-11</p>
+                                <p>◘ Aprenda programación orientada a objetos, utilizando la sintaxis básica de Java</p>
+                                <p>◘ Comprender las técnicas básicas utilizadas en el diseño orientado a objetos.</p>
+                                <p>◘ Examinar la concurrencia y la memoria, y cómo están entrelazadas.</p>
+                                <p>◘ Trabajar con colecciones Java y manejar formatos de datos comunes</p>
+                                <p>◘ Profundice en las últimas API de E/S de Java, incluidos los canales asincrónicos</p>
+                                <p>◘ Utilice Nashorn para ejecutar JavaScript en la máquina virtual Java</p>
+                                <p>◘ Familiarícese con las herramientas de desarrollo en OpenJDK</p>
+
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="container">
+                        <div class="book">
+                            <img src="~/pictures/libro9.jpg" />
+                            <strong>Sustainable Software Architecture: Analyze and Reduce Technical Debt  </strong>
+
+                            <button class="toggle-btn" id="toggleBtn8">
+                                <span class="arrow8">&#x21e3;</span> Ver detalles
+                            </button>
+                            <div class="book-details" id="bookDetails8" style="display:none;">
+                                <h3 style="color: crimson"><strong> Detalles del Libro</strong></h3>
+                                <p>
+                                    <strong>Autor/es:</strong> Carola Lilienthal 
+                                </p>
+                                <p>
+                                    <strong>N° páginas</strong> 307 páginas
+                                </p>
+                                <p>
+                                    <strong>Fecha de publicación:</strong>1 de octubre de 2019
+
+                                </p>
+                                <p>
+                                    <strong>Descripción:</strong> Los programadores de hoy no desarrollan sistemas de software desde cero, sino que dedican su tiempo a reparar, ampliar, modificar y mejorar el software existente. Los sistemas heredados a menudo se convierten en un caos inmanejable que se vuelve cada vez más difícil de modificar y con una arquitectura que acumula continuamente deuda técnica.
+
+                                    Carola Lilienthal ha analizado más de 300 sistemas de software escritos en Java, C#, C++, PHP, ABAP y TypeScript y, junto con sus equipos, los ha refactorizado con éxito. Este libro condensa su experiencia con sistemas monolíticos, patrones arquitectónicos y de diseño, arquitecturas en capas, diseño orientado al dominio y microservicios.
+
+                                    Con más de 200 imágenes en color de sistemas del mundo real, se presentan soluciones de muestra buenas y subóptimas de una manera comprensible y completa, mientras que las recomendaciones y sugerencias basadas en proyectos prácticos permiten al lector aplicar directamente el conocimiento del autor a su trabajo diario.
+
+                                    "A lo largo del libro, la Dra. Lilienthal ha brindado consejos útiles para diagnosticar, comprender, desentrañar y, en última instancia, prevenir los problemas que hacen que los sistemas de software sean frágiles y propensos a romperse. Además de los ejemplos técnicos que se esperarían de un libro sobre arquitectura de software, se toma el tiempo de profundizar en los aspectos humanos y de comportamiento que afectan la sostenibilidad y que, en mi experiencia, están inextricablemente vinculados a la salud de una base de código. También amplía con pericia el alcance, explorando conceptos de arquitectura como dominios y capas, y luego se centra en el nivel de clase donde el desarrollador típico trabaja día a día. Este enfoque holístico es crucial para implementar un cambio duradero".
+
+                                    Del prólogo de Andrea Goulet
+                                    , CEO de Corgibytes y
+                                    fundador de Legacy Code Rocks
+                                </p>
+                               
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+
+                </div>
+
+            
+        </div>
+    </div>
+
+    <style>
+        .espacio {
+            margin-top: 50px;
+        }
+    </style>
+   
+    <script src="~/js/arqui.js"></script>
+</body>
+</html>
