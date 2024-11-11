@@ -3,8 +3,7 @@
 <h1>Eliminar Libro</h1>
 <p>¿Está seguro que desea eliminar el libro <strong>@Model.Titulo</strong>?</p>
 
-<form asp-action="ConfirmarEliminar" method="post">
-    <input type="hidden" asp-for="Id" />
-    <button type="submit" class="btn btn-danger">Eliminar</button>
-    <a asp-action="Index" class="btn btn-secondary">Cancelar</a>
+<form asp-action="Eliminar" asp-route-id="@Model.Id" method="post">
+    <input type="submit" value="Confirmar Eliminación" class="btn btn-danger" />
+    <a href="@Url.Action("Index", "Libro")" class="btn btn-secondary">Cancelar</a>
 </form>
