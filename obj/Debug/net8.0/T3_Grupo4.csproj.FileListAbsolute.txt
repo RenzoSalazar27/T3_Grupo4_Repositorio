@@ -1153,3 +1153,6 @@ D:\Programas\T3_Grupo4_Repositorio\obj\Debug\net8.0\refint\T3_Grupo4.dll
 D:\Programas\T3_Grupo4_Repositorio\obj\Debug\net8.0\T3_Grupo4.pdb
 D:\Programas\T3_Grupo4_Repositorio\obj\Debug\net8.0\T3_Grupo4.genruntimeconfig.cache
 D:\Programas\T3_Grupo4_Repositorio\obj\Debug\net8.0\ref\T3_Grupo4.dll
+C:\Users\miria\Source\Repos\RenzoSalazar27\T3_Grupo4_Repositorio\obj\Debug\net8.0\T3_Grupo4.dll
+C:\Users\miria\Source\Repos\RenzoSalazar27\T3_Grupo4_Repositorio\obj\Debug\net8.0\refint\T3_Grupo4.dll
+C:\Users\miria\Source\Repos\RenzoSalazar27\T3_Grupo4_Repositorio\obj\Debug\net8.0\T3_Grupo4.pdb
