@@ -7,7 +7,7 @@ function toggleDetails(btnId, detailsId, arrowClass) {
         // Si la información está oculta, la mostramos
         if (details.style.display === "none" || details.style.display === "") {
             details.style.display = "block"; // Mostramos los detalles
-            arrow.style.transform = "rotate(180deg)"; // Giramos la flecha hacia arriba
+            arrow.style.transform = "rotate(180deg)"; // Giramos la flecha hacia arriba...
         } else {
             details.style.display = "none"; // Ocultamos los detalles
             arrow.style.transform = "rotate(0deg)"; // Giramos la flecha hacia abajo

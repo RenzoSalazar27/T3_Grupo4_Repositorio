@@ -68,15 +68,15 @@ body, html {
 
 
 .toggle-btn {
-    background: linear-gradient(to right, #007bff, #7800ff); /* Degradado azul a morado */
+    background: linear-gradient(to right, #007bff, #7800ff); /* Degradado azul a morado.. */
     color: white; /* Texto blanco */
     border: none; /* Quita el borde */
     padding: 12px 20px; /* Relleno interno */
     border-radius: 5px; /* Bordes redondeados */
     font-size: 17px; /* Tamaño de fuente */
-    transition: background 0.3s ease; /* Transición suave */
+    transition: background 0.3s ease; /* Transición suav.. */
 }
 
     .toggle-btn:hover {
-        background: linear-gradient(to right, #ffc300, #9f00ff); /* Invertir los colores al pasar el ratón */
+        background: linear-gradient(to right, #ffc300, #9f00ff); /* Invertir los colores al pasar el ratón... */
     }
